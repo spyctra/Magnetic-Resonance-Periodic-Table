@@ -1,0 +1,76 @@
+\documentclass[border=1cm]{standalone}
+\setlength{\paperwidth}{36in} % A0 width: 46.8in
+\setlength{\paperheight}{48in} % A0 height: 33.1in
+\usepackage[table]{xcolor}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[table]{xcolor}
+\usepackage{multirow}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc}
+
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
+
+\usepackage{anyfontsize}
+\usepackage{t1enc}
+
+\usepackage{array}
+\usepackage{makecell}
+
+\def\zCol{1.3cm}
+\def\spinCol{0.9cm}
+\def\gammaCol{1.2cm}
+\def\qCol{1.5cm}
+\def\naCol{1cm}
+\def\bCol{0.4cm}
+\def\abbrGap{1cm}
+\def\nameGape{0.25cm}
+
+\def\nonmetal{YellowGreen!50}
+\def\alkali_metal{Violet!40}
+\def\alkaline_earth{BrickRed!30}
+\def\basic_metal{cyan!25}
+\def\metalloid{lightgray!40}
+\def\halogen{red!25}
+\def\transition_metal{Yellow!50}
+\def\lanthanoid{Dandelion!30}
+\def\actinoid{gray!40}
+\def\noble{RoyalBlue!50}
+\def\other{White!0}
+
+
+\def\zFont{\fontsize{18}{20}\selectfont}
+\def\nameFont{\fontsize{18}{20}\selectfont}
+\def\numFont{\fontsize{12}{14}\selectfont}
+\def\abbrFont{\fontsize{80}{40}\selectfont}
+\def\titlFont{\fontsize{120}{40}\selectfont}
+\def\capFont{\fontsize{32}{40}\selectfont}
+
+\setlength\tabcolsep{0.5pt} % default value: 6pt
+
+
+\begin{document}
+\fontsize{13}{14}\selectfont
+\def\arraystretch{1}
+    \begin{tabular}{wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol} 
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{\bCol}
+                    wl{\zCol} wl{\spinCol} wr{\gammaCol} wr{\qCol} wr{\naCol} wc{0cm}
+                    }
+                    
+                    
