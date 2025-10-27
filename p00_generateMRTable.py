@@ -306,7 +306,7 @@ def main():
             ,[i for i in range(89,104)]
            ]
 
-    elements = loadElements('./easyspinDatabase_2025-03-19.txt')
+    elements = loadElements('./easyspinDatabase_2025-10-27.txt')
     maxRows = getRows(elements, rows)
     table = generateTable(elements, maxRows, rows)
     populateTable(table, elements, maxRows, rows)
@@ -314,4 +314,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
