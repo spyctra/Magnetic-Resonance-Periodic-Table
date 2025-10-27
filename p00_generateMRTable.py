@@ -241,7 +241,7 @@ def populateTable(table, elements, maxRows, rows):
                     + '$\\,\\,\\,\\,$Nuclear Quadrupole Moments, P.Pyykk\\"{o}, (2008)\\\\'
                     + 'Uncertainties at high atomic numbers can exceed 10 percent.\\\\'
                     + 'Send corrections to Michael W. Malone: mwmalone@gmail.com\\\\'
-                    + '$\\,\\,\\,\\,$V2025-03-20'
+                    + 'https://github.com/spyctra/Magnetic-Resonance-Periodic-Table'
                     + '}}} & ')
 
     addendum  = '\\end{tabular} \n'
@@ -314,3 +314,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
