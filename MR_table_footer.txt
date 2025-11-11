@@ -1,0 +1,23 @@
+\fontsize{16}{30}\selectfont 
+\fontfamily{lmss}\selectfont 
+\begin{textblock*}{7cm}(29.5cm,10.75cm) Atomic number and name\end{textblock*}       
+\begin{textblock*}{7cm}(29.5cm,13.0cm)Chemical formula\end{textblock*}              
+\begin{textblock*}{7cm}(28.4cm,18.3cm)Natural abundance (\%)\end{textblock*}      
+\begin{textblock*}{7cm}(27.4cm,19.0cm)Q (millibarn)\end{textblock*}               
+\begin{textblock*}{7cm}(25.5cm,19.6cm)Gyromagnetic ratio (MHz/T)\end{textblock*}  
+\begin{textblock*}{7cm}(24.4cm,20.3cm)Spin\end{textblock*}                        
+\begin{textblock*}{7cm}(22.9cm,21.0cm)Isotope\end{textblock*}                     
+
+
+\begin{tikzpicture}[remember picture,overlay,scale=1]               
+%\tikzset{shift={(-97.525cm,20.3cm)}}                               
+\tikzset{shift={(-97.1cm,18.8cm)}}                               
+\draw[-,black,very thick] (0cm,0cm) -- (0cm,3.5cm); %isotope        
+\draw[-,black,very thick] (1.5cm,0.7cm) -- (1.5cm,3.5cm); %spin     
+\draw[-,black,very thick] (2.7cm,1.4cm) -- (2.7cm,3.5cm); %gamma        
+\draw[-,black,very thick] (4.6cm,2.1cm) -- (4.6cm,3.5cm); %Q        
+\draw[-,black,very thick] (5.6cm,2.8cm) -- (5.6cm,3.5cm); %NA           
+\draw[-,black,very thick] (5.9cm,7.4cm) -- (6.4cm,7.4cm); %abbr         
+\draw[-,black,very thick] (5.9cm,9.6cm) -- (6.4cm,9.6cm); %name         
+\end{tikzpicture}                                                   
+                                                
