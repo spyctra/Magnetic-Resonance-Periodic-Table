@@ -1,0 +1,6 @@
+2025-11-10
+--need better lines around the gamme_e and gamma_n cells
+
+--need better logix to connect labeles to Hydrogren example for easier adjustments
+
+--spacing between spin and gyromagnetic ratio for gamme_e needs a closer look...

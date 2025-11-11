@@ -57,17 +57,17 @@ def loadElements(path):
         for i, iso in enumerate(e['isotopes']):
             if iso['rad']=='*' and iso['NA'] == 0:
                 if (
-                       (e['abbr']=='H' and iso['isotope']==3)
-                    or (e['abbr']=='C' and iso['isotope']==14)
-                    or (e['abbr']=='O' and iso['isotope']==18)
+                       (e['abbr']=='H'  and iso['isotope']==3)
+                    or (e['abbr']=='C'  and iso['isotope']==14)
+                    or (e['abbr']=='O'  and iso['isotope']==18)
                     or (e['abbr']=='Tc' and iso['isotope']==99)
                     or (e['abbr']=='Pm' and iso['isotope']==147)
                     or (e['abbr']=='Po' and iso['isotope']==209)
                     or (e['abbr']=='Ac' and iso['isotope']==227)
                     or (e['abbr']=='Th' and iso['isotope']==229)
-                    or (e['abbr']=='U' and iso['isotope']==234)
+                    or (e['abbr']=='U'  and iso['isotope']==234)
                     or (e['abbr']=='Np' and iso['isotope']==237)
-                    or (e['abbr']=='U' and iso['isotope']==238)
+                    or (e['abbr']=='U'  and iso['isotope']==238)
                     or (e['abbr']=='Pu' and iso['isotope']==239)
                     or (e['abbr']=='Am' and iso['isotope']==243)
                    ):
@@ -77,6 +77,7 @@ def loadElements(path):
 
                 e['isotopes'].pop(i)
                 dropped = True
+                
         if dropped:
             print(e['abbr'],len(e['isotopes']))
 
