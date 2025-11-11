@@ -142,7 +142,7 @@ def populateTable(table, elements, maxRows, rows):
         r0, c0, color = elementMap(e['abbr'])
         r1 = int(np.sum(maxRows[:r0]))
 
-        if color != 'white':
+        if color != '\\other':
             colCom = formatting*(f'\\cellcolor{{{color}}}')
         else:
             colCom = ''
